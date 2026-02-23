@@ -25,17 +25,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.title("📊 Student Performance Prediction")
 st.markdown("""
 Predicting the **Performance Index** based on academic and lifestyle factors.
 Using Multiple Linear Regression.
 
+**Live Demo:** [student-performance-prediction-py.streamlit.app](https://student-performance-prediction-py.streamlit.app)  
 **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)  
 **GitHub:** [Student-Performance-Prediction-Project](https://github.com/SohaibAamir28/Student-Performance-Prediction-Project)
 """)
 
-# Paths
+# Paths - Updated for deployment
+# On Streamlit Cloud, the root is usually the folder containing app.py
 DATA_PATH = "dataset/Student_Performance.csv"
-MODEL_PATH = "applied-ml/models/student_performance_model.pkl"
+MODEL_PATH = "models/student_performance_model.pkl"
 
 if os.path.exists(DATA_PATH) and os.path.exists(MODEL_PATH):
     # Load Model
