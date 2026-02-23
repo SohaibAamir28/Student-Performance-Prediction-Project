@@ -3,7 +3,8 @@
 A machine learning project to predict student performance index based on various factors like study hours, previous scores, and sleep hours.
 
 **Dataset:** [Kaggle](https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression)  
-**Repository:** [GitHub](https://github.com/SohaibAamir28/Student-Performance-Prediction-Project)
+**Repository:** [GitHub](https://github.com/SohaibAamir28/Student-Performance-Prediction-Project)  
+**Live Demo:** [Streamlit Cloud](https://student-performance-prediction-py.streamlit.app)
 
 ## Features
 - **Data Preprocessing**: Handles duplicates and categorical encoding.
